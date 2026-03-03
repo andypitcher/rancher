@@ -7,6 +7,9 @@ on:
     branches:
     - 'release/*'
 
+permissions:
+  contents: read
+
 env:
   MAIN_BRANCH: origin/master
   GOARCH: amd64

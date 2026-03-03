@@ -8,6 +8,8 @@ on:
     types:
       - created
 
+permissions: {}
+
 jobs:
   port-issue:
     runs-on: ubuntu-latest
